@@ -3,41 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Violet Portfolio</title>
-   <link href = "style.css" rel = "stylesheet">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h2>My portfolio</h2>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="skill.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="navbar">
+    <h2>My Portfolio</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skill.html">Skills</a></li>
+      <li><a href="contact.html" class="contact-btn">Contact</a></li>
+    </ul>
+  </div>
 
-  <main>
-    <h1>Lets have a chat</h1>
-    <form>
-      <label>Name:</label>
-      <input type="text" name="name"><br><br>
+  <!-- Contact Section -->
+  <div class="container">
+    <div class="text">
+      <h1>Lets have a chat</h1>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea rows="4" placeholder="Your message here"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="image">
+      <img src="images/images.jpg" alt="iamges">
+    </div>
+  </div>
 
-      <label>Email:</label>
-      <input type="email" name="email"><br><br>
 
-      <label>Message:</label>
-      <textarea name="message"></textarea><br><br>
-
-      <button type="submit">Send</button>
-    </form>
-
-    <img src="images/images.jpg" alt="Violet Image">
-  </main>
-
-  <footer>
-    <p>Created by Dipa Barua | Copyright @ 2025</p>
-  </footer>
+  <div class="footer">
+    <p>Created by DIPA</p>
+    <p>Copyright © 2025</p>
+  </div>
 </body>
 </html>

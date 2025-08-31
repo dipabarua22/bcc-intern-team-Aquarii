@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: #2e7d32;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 22px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .contact-btn {
+  background-color: white;
+  color: #2e7d32;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+}
+
+.text {
+  max-width: 50%;
+}
+
+.text h1 {
+  font-size: 35px;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 28px;
+  color: #555;
+}
+
+.image img {
+  width: 350px;
+  border-radius: 8px;
+  margin-right: 80px;
+
+}
+
+.skills {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-box {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+  margin-top: 160px;
+}
+
+.footers {
+  background-color: #2e7d32;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+  margin-top: 290px;
+}
